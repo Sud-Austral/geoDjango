@@ -27,8 +27,11 @@ SECRET_KEY = 'oas^4y)8bca2wcc2**qhdcrsp@s02rcv6_zk*y5a7v#6+0s-_v'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
+#DEBUG = True
+
 ALLOWED_HOSTS = ['geo-django123.herokuapp.com']
 
+#ALLOWED_HOSTS = []
 
 # Application definition
 
