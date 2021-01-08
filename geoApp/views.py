@@ -9,7 +9,7 @@ def home(request):
     m = folium.Map(location=[-16.22,-71.59],zoom_start=9)
     #m = folium.Map(location=[0,0],zoom_start=10)
     ## style
-    style_basin = {'fillColor': '#228B22', 'color': '#228B22'}
+    style_basin = {'fillColor': 'red', 'color': '#228B22'}
     style_rivers = { 'color': 'blue'}
     ## adding to view
     folium.GeoJson(os.path.join(shp_dir,'basin.geojson'),name='basin',style_function=lambda x:style_basin).add_to(m)

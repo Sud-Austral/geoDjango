@@ -1,9 +1,0 @@
-*Crear app
-pip install django
-pip install folium
-django-admin startproject geo
-cd geo
-python manage.py startapp geoApp
-
-*Ejecutar app
-python manage.py runserver
